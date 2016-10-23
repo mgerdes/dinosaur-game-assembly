@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>37005945</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$TOOLKIT_DIR$\config\linker\ST\stm32f207xG.icf</file>
+      <file>$PROJ_DIR$\Debug\Obj\font13.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\sprites.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\game.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\lcd.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\buzzer.o</file>
+      <file>$PROJ_DIR$\lcd.h</file>
+      <file>$PROJ_DIR$\game.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\asm.o</file>
+      <file>$TOOLKIT_DIR$\inc\ST\iostm32f207zx.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\asm.out</file>
+      <file>$PROJ_DIR$\game.s</file>
+      <file>$TOOLKIT_DIR$\inc\asm\io_macros.h</file>
+      <file>$PROJ_DIR$\Images\font13.s</file>
+      <file>$PROJ_DIR$\lcd.s</file>
+      <file>$PROJ_DIR$\asm.s</file>
+      <file>$PROJ_DIR$\Images\sprites.s</file>
+      <file>$PROJ_DIR$\buzzer.s</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\asm.out</name>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 0 8 5 1 3 4 2</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\game.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 3</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>AARM</name>
+          <file> 9 12 6</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Images\font13.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 1</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\lcd.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 4</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>AARM</name>
+          <file> 9 12</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\asm.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 8</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>AARM</name>
+          <file> 9 12 6 7</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Images\sprites.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 2</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 10</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\buzzer.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 5</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>AARM</name>
+          <file> 9 12</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
